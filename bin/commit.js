@@ -1,2 +1,4 @@
 #! /usr/local/bin/node
-console.log("console.log output")
+var shell = require("shelljs");
+
+shell.exec("git add -A . && git commit -a -m 'gh-pages update'");

@@ -1,6 +1,9 @@
 {
   "name": "@linclark/github-pages-deploy",
   "version": "1.0.0",
+  "dependencies": {
+    "shelljs": "^0.4.0"
+  },
   "bin": {
     "github-pages-commit": "bin/commit.js"
   }
