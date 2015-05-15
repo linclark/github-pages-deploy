@@ -1,12 +1,11 @@
 {
   "name": "@linclark/github-pages-deploy",
-  "version": "1.0.1",
+  "version": "2.0.0-alpha.1",
   "dependencies": {
-    "shelljs": "^0.4.0"
+    "shelljs": "^0.4.0",
+    "yargs": "^3.9.0"
   },
   "bin": {
-    "github-pages-commit": "bin/commit.js",
-    "github-pages-push": "bin/push.js",
-    "github-pages-deploy": "bin/deploy.js"
+    "github-pages": "bin/github-pages.js"
   }
 }
